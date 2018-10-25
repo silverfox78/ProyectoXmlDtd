@@ -15,4 +15,4 @@
 
 ## Archivo XML
 
-XML de Archivos : [AQUI](https://github.com/silverfox78/ProyectoXmlDtd/blob/master/libros.xml)
+XML de Libros : [AQUI](https://github.com/silverfox78/ProyectoXmlDtd/blob/master/libros.xml)
