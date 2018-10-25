@@ -11,3 +11,7 @@
 **Alumnos:**
 
 * Samuel Barrera Bastidas - Seccion: 6
+
+## Archivo XML
+
+XML de Archivos [XML](https://github.com/silverfox78/ProyectoXmlDtd/blob/master/libros.xml)
