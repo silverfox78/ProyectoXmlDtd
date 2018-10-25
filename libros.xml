@@ -1,0 +1,169 @@
+<!DOCTYPE biblioteca[
+    <!ELEMENT biblioteca (libro+)>
+    <!ELEMENT libro (titulo, autores, publicacion)>
+    <!ATTLIST libro id CDATA #REQUIRED>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT autores (autor+)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT publicacion (editorial, edicion, fecha, presentacion, valor)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT edicion (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT presentacion (#PCDATA)>
+    <!ATTLIST presentacion tipo (papel|digital|ambas) "papel">
+    <!ELEMENT valor (#PCDATA)>
+    <!ATTLIST valor moneda CDATA "">
+]>
+<biblioteca>
+    <libro id="1">
+        <titulo>Clean Code: A Handbook of Agile Software Craftsmanship</titulo>
+        <autores>
+            <autor>Robert C. Martin</autor>
+        </autores>
+        <publicacion>
+            <editorial>Prentice Hall</editorial>
+            <edicion>1</edicion>
+            <fecha>01/08/2008</fecha>
+            <presentacion tipo="papel"/>
+            <valor moneda="EUR">16,80</valor>
+        </publicacion>
+    </libro>
+
+    <libro id="2">
+        <titulo>The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win</titulo>
+        <autores>
+            <autor>Gene Kim</autor>
+            <autor>Kevin Behr</autor>
+            <autor>George Spafford</autor>
+        </autores>
+        <publicacion>
+            <editorial>IT Revolution Press</editorial>
+            <edicion>1</edicion>
+            <fecha>01/01/2013</fecha>
+            <presentacion tipo="papel"/>
+            <valor moneda="USD">24,99</valor>
+        </publicacion>
+    </libro>
+
+    <libro id="3">
+        <titulo>Agile Software Development, Principles, Patterns, and Practices</titulo>
+        <autores>
+            <autor>Robert C. Martin</autor>
+        </autores>
+        <publicacion>
+            <editorial>Pearson</editorial>
+            <edicion>1</edicion>
+            <fecha>25/08/2002</fecha>
+            <presentacion tipo="papel"/>
+            <valor moneda="USD">69,83</valor>
+        </publicacion>
+    </libro>
+
+    <libro id="4">
+        <titulo>Por Un Scrum Popular:: Notas para una Revolucion Agil</titulo>
+        <autores>
+            <autor>Tobias Mayer</autor>
+            <autor>Alan Cyment</autor>
+        </autores>
+        <publicacion>
+            <editorial>Dymaxicon</editorial>
+            <edicion>1</edicion>
+            <fecha>03/08/2014</fecha>
+            <presentacion tipo="digital"/>
+            <valor moneda="USD">0,99</valor>
+        </publicacion>
+    </libro>
+
+    <libro id="5">
+        <titulo>Refactoring: Improving the Design of Existing Code</titulo>
+        <autores>
+            <autor>Martin Fowler</autor>
+            <autor>Kent Beck</autor>
+            <autor>John Brant</autor>
+            <autor>William Opdyke</autor>
+            <autor>Don Roberts</autor>
+            <autor>Erich Gamma</autor>
+        </autores>
+        <publicacion>
+            <editorial>Addison-Wesley Professional</editorial>
+            <edicion>1</edicion>
+            <fecha>03/07/1999</fecha>
+            <presentacion tipo="papel"/>
+            <valor moneda="USD">56,10</valor>
+        </publicacion>
+    </libro>
+
+    <libro id="6">
+        <titulo>Lean Software Development: An Agile Toolkit</titulo>
+        <autores>
+            <autor>Mary Poppendieck</autor>
+            <autor>Tom Poppendieck</autor>
+        </autores>
+        <publicacion>
+            <editorial>Addison-Wesley Professional</editorial>
+            <edicion>1</edicion>
+            <fecha>03/05/2003</fecha>
+            <presentacion tipo="digital"/>
+            <valor moneda="USD">17,27</valor>
+        </publicacion>
+    </libro>
+
+    <libro id="7">
+        <titulo>LA Meta</titulo>
+        <autores>
+            <autor>Eliyahu M Goldratt</autor>
+            <autor>Jeff Cox</autor>
+        </autores>
+        <publicacion>
+            <editorial>North River Pr</editorial>
+            <edicion>2</edicion>
+            <fecha>01/12/1999</fecha>
+            <presentacion tipo="papel"/>
+            <valor moneda="USD">24,31</valor>
+        </publicacion>
+    </libro>
+
+    <libro id="8">
+        <titulo>Agile Retrospectives: Making Good Teams Great</titulo>
+        <autores>
+            <autor>Esther Derby</autor>
+            <autor>Diana Larsen</autor>
+            <autor>Ken Schwaber</autor>
+        </autores>
+        <publicacion>
+            <editorial>Pragmatic Bookshelf</editorial>
+            <edicion>1</edicion>
+            <fecha>05/08/2006</fecha>
+            <presentacion tipo="papel"/>
+            <valor moneda="USD">25,44</valor>
+        </publicacion>
+    </libro>
+
+    <libro id="9">
+        <titulo>User Stories Applied: For Agile Software Development</titulo>
+        <autores>
+            <autor>Mike Cohn</autor>
+        </autores>
+        <publicacion>
+            <editorial>Addison-Wesley Professional</editorial>
+            <edicion>1</edicion>
+            <fecha>11/03/2004</fecha>
+            <presentacion tipo="papel"/>
+            <valor moneda="USD">44,80</valor>
+        </publicacion>
+    </libro>
+
+    <libro id="10">
+        <titulo>The Agile Samurai: How Agile Masters Deliver Great Software (Pragmatic Programmers)</titulo>
+        <autores>
+            <autor>Jonathan Rasmusson</autor>
+        </autores>
+        <publicacion>
+            <editorial>Pragmatic Bookshelf</editorial>
+            <edicion>1</edicion>
+            <fecha>05/10/2010</fecha>
+            <presentacion tipo="papel"/>
+            <valor moneda="USD">33,37</valor>
+        </publicacion>
+    </libro>
+</biblioteca>
